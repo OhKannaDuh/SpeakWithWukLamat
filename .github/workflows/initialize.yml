@@ -34,7 +34,6 @@ jobs:
               run: |
                   # Replace PluginTemplate with INTERNAL_NAME
                   sed -i "s/PluginTemplate/${INTERNAL_NAME}/g" bin/release.sh .gitignore PluginTemplate/PluginTemplate.csproj
-                  sed -i "s/PluginTemplate/${INTERNAL_NAME}/g" PluginTemplate/**/*.cs
                   sed -i "s/PluginTemplate/${INTERNAL_NAME}/g" PluginTemplate/*.cs
 
                   # Replace PluginTemplate with DISPLAY_NAME
