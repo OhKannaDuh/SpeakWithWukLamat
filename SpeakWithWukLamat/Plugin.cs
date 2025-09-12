@@ -3,12 +3,12 @@ using ECommons;
 using Ocelot;
 using Ocelot.Chain;
 
-namespace PluginTemplate;
+namespace SpeakWithWukLamat;
 
 public sealed class Plugin : OcelotPlugin
 {
     public override string Name {
-        get => "PluginTemplate";
+        get => "SpeakWithWukLamat";
     }
 
     public Config Config { get; }
@@ -18,7 +18,7 @@ public sealed class Plugin : OcelotPlugin
     }
 
     public static ChainQueue Chain {
-        get => ChainManager.Get("PluginTemplate.Chain");
+        get => ChainManager.Get("SpeakWithWukLamat.Chain");
     }
 
     public Plugin(IDalamudPluginInterface plugin)
@@ -41,7 +41,7 @@ public sealed class Plugin : OcelotPlugin
 
     protected override void OnCoreLoaded()
     {
-        Commands.InitializeMainCommand("/plugintemplate");
-        Commands.InitializeConfigCommand("/plugintemplatecfg", aliases: ["/plugintemplatec"]);
+        Commands.InitializeMainCommand("/speak_with_wuk_lamat");
+        Commands.InitializeConfigCommand("/speak_with_wuk_lamatcfg", aliases: ["/speak_with_wuk_lamatc"]);
     }
 }

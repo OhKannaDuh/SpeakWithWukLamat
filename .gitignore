@@ -1,6 +1,6 @@
 .vs/
-PluginTemplate/obj/
-PluginTemplate/bin/
+SpeakWithWukLamat/obj/
+SpeakWithWukLamat/bin/
 *.user
-PluginTemplate/.env
+SpeakWithWukLamat/.env
 node_modules/

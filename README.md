@@ -1,3 +1,3 @@
-# PluginTemplate
+# Speak With Wuk Lamat
 
 Repo: https://raw.githubusercontent.com/OhKannaDuh/plugins/refs/heads/master/manifest.json
