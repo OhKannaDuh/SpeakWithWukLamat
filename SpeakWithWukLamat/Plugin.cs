@@ -7,6 +7,7 @@ using Ocelot.Mechanic.Services;
 using Ocelot.Pathfinding.Services;
 using Ocelot.Pictomancy.Services;
 using Ocelot.Rotation.Services;
+using Ocelot.Services.Data;
 using Ocelot.Services.WindowManager;
 using Ocelot.States;
 using Ocelot.UI.Services;
@@ -37,6 +38,7 @@ public sealed class Plugin(IDalamudPluginInterface plugin) : OcelotPlugin(plugin
         BootstrapConfiguration(services);
         BootstrapServices(services);
         BootstrapModules(services);
+        BootstrapQuestPatches(services);
     }
 
     private static void BootstrapOcelotModules(IServiceCollection services)
@@ -81,5 +83,17 @@ public sealed class Plugin(IDalamudPluginInterface plugin) : OcelotPlugin(plugin
         services.AddSingleton<AutomatorModule>();
         services.AddSingleton<IAutomatorContext, AutomatorContext>();
         services.AddFlowStateMachine(AutomatorState.Idle);
+    }
+
+    private static void BootstrapQuestPatches(IServiceCollection services)
+    {
+        services.Scan(s => s.
+            FromAssemblyOf<IQuestPatch>()
+            .AddClasses(c => c.AssignableTo<IQuestPatch>())
+            .AsImplementedInterfaces()
+            .WithSingletonLifetime()
+        );
+
+        services.AddSingleton<IDataRepository<QuestId, IQuestPatch>, QuestPatchRepository>();
     }
 }

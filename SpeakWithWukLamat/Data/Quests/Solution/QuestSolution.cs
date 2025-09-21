@@ -21,6 +21,8 @@ public sealed class QuestSolution
     {
         return sequences.TryGetValue(index, out sequence!);
     }
+    
+    public IQuestPatch? QuestPatch { get; private set; }
 
     public int CountAssociations(QuestData.QuestParamsStruct param)
     {
@@ -128,5 +130,10 @@ public sealed class QuestSolution
             .SelectMany(step => step.SubSteps)
             .SelectMany(subStep => subStep.Listeners)
             .Count(p => Is(p, param));
+    }
+
+    public void SetQuestPatch(IQuestPatch questPatch)
+    {
+        QuestPatch = questPatch;
     }
 }

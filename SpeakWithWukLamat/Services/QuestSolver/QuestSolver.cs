@@ -1,12 +1,18 @@
 ﻿using System.Linq;
 using Ocelot.Services.Data;
+using Ocelot.Services.Logger;
 using SpeakWithWukLamat.Data.Quests;
 using SpeakWithWukLamat.Data.Quests.Solution;
 using Quest = SpeakWithWukLamat.Data.Quests.Quest;
 
 namespace SpeakWithWukLamat.Services.QuestSolver;
 
-public class QuestSolver(IDataRepository<QuestId, QuestSolution> solutions, IQuestSubStepFactory subStepFactory) : IQuestSolver
+public class QuestSolver(
+    IDataRepository<QuestId, QuestSolution> solutions,
+    IQuestSubStepFactory subStepFactory,
+    IDataRepository<QuestId, IQuestPatch> patches,
+    ILogger logger
+) : IQuestSolver
 {
     public QuestSolution Solve(Quest quest)
     {
@@ -43,6 +49,15 @@ public class QuestSolver(IDataRepository<QuestId, QuestSolution> solutions, IQue
             }
 
             solution.AddSequence(sequenceIndex, sequence);
+        }
+
+        if (patches.ContainsKey(quest.Id))
+        {
+            logger.Info("Patching quest {name}", quest.Data.Name.ExtractText());
+            var patch = patches.Get(quest.Id);
+            solution.SetQuestPatch(patch);
+
+            patch.Patch(quest.Data, solution);
         }
 
         solutions.Add(quest.Id, solution);

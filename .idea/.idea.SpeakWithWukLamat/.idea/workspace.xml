@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="7" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29e4cbf7-c0fa-4cba-bf9c-c2ac78f6e43c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/IQuestPatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/QuestPatchAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/QuestPatchRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Patches/ARealmReborn/MSQ/PrudenceAtThisJunctionQuestPatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ocelot" beforeDir="false" afterPath="$PROJECT_DIR$/Ocelot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/Solution/QuestSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/Solution/QuestSolution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Plugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/Renderers/MainRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Renderers/MainRenderer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/Services/QuestSolver/QuestSolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Services/QuestSolver/QuestSolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/SpeakWithWukLamat.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/SpeakWithWukLamat.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/packages.lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/packages.lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Ocelot/Ocelot.Chain/ChainRecipe.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ocelot/Ocelot.Chain/IChainRecipe.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ocelot/Ocelot.Chain/Recipes/PathfindToChain.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ocelot/Ocelot.ECommons/Services/Logger/LoggerService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ocelot/Ocelot/Ipc/VNavmesh/IVNavmeshIpc.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ocelot/Ocelot/Ipc/VNavmesh/VNavmeshIpc.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ocelot/Ocelot/Services/Data/IDataRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ocelot/Ocelot/States/Flow/FlowStateHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ocelot/Ocelot/States/StateMachineDIExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Config/Configuration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Config/DetourConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Config/IConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Data/Quests/Quest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Data/Quests/Solution/IQuestSubStepFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Plugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Services/Quests/IQuestListProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Services/Quests/IQuestManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Services/Quests/IQuestRequirementChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Services/Quests/IQuestSolutionPatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Services/Quests/IQuestSolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Services/Quests/IQuestTodoParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Services/Quests/JsonQuestSolutionPatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpeakWithWukLamat.Core/Services/Quests/QuestSolutionPatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56bbb2b7fcc440ed8e42e50921eebf069f600/f3/3d037361/Svc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7886a5768c6946a28e8c4cc7b12c618ba0930/06/f79143d1/Enumerable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b24cad2be4ef4e64a4b14f3bc8187707787848/83/879b4926/InstanceType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c167539f0be74d9c8c1e0e1493ce89cd9ea58/c1/7b04fefc/CoreWebView2Environment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1bbde5309ad69f9b197e3197e77f36e561a0a967bf83f231eec195828ff4/OfType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/24a1b0159a6e13ed29172da89c2f6a13dee41a26537f86c617cc555f13cc29/ImGui.Widgets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2fe9424648c5a49572c420d45c705c642c5439/Quest.g.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/83c2d975d6ced1cb9841630ca1dd6866548f0a1c45d8bb3cbb463de2b7c27/ICondition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/95f83bdd141b158b5cb43a5e398067544caecefb/ClassJobCategory.g.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b0751082e5737e66fbd3d7ff3b46c3bec693cee/Quest.Experimental.g.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/de533de9e7b3ea79d36aeac96b6426559cfe9f3a96b1ab66b51ce3febeda25f/TimeSpan.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32cOyYXMd4MFJn625Ov2EH7LbNt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29e4cbf7-c0fa-4cba-bf9c-c2ac78f6e43c" name="Changes" comment="" />
+      <created>1757716650134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757716650134</updated>
+      <workItem from="1757716651444" duration="15428000" />
+      <workItem from="1757743320866" duration="11316000" />
+      <workItem from="1757791870923" duration="10366000" />
+      <workItem from="1757810626265" duration="5139000" />
+      <workItem from="1757835684468" duration="3974000" />
+      <workItem from="1757894278684" duration="18997000" />
+      <workItem from="1758220121123" duration="378000" />
+      <workItem from="1758298307983" duration="8071000" />
+      <workItem from="1758353027166" duration="11931000" />
+      <workItem from="1758458081382" duration="5654000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

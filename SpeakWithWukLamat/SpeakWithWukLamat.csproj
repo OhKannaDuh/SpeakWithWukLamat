@@ -52,4 +52,7 @@
         <!-- @todo, update ocelot version release for di support (2.0.0) and modules -->
         <PackageReference Include="FFXIVOcelot" Version="1.2.0" />
     </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Scrutor" Version="6.1.0" />
+    </ItemGroup>
 </Project>

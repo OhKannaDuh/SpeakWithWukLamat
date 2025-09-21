@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Reflection;
 using Dalamud.Bindings.ImGui;
 using ECommons.DalamudServices;
 using ECommons.GameHelpers;
@@ -88,6 +89,17 @@ public class MainRenderer(
         }
 
         ImGui.Indent();
+        
+        if (quest.Solution.QuestPatch != null)
+        {
+            var patch = quest.Solution.QuestPatch;
+            var attr = patch.GetType().GetCustomAttribute<QuestPatchAttribute>();
+            if (attr != null)
+            {
+                ui.LabelledValue("Patch Author(s)", attr.Author);
+                ui.LabelledValue("Patch Game Patch", attr.GamePatch);
+            }
+        }
 
         unsafe
         {
