@@ -40,8 +40,13 @@
     <!-- Ocelot -->
     <ItemGroup Condition="'$(Configuration)' == 'Debug'">
         <ProjectReference Include="../Ocelot/Ocelot/Ocelot.csproj" />
-        <!-- <ProjectReference Include="../Ocelot/Ocelot.ECommons/Ocelot.ECommons.csproj" /> -->
-        <!-- <ProjectReference Include="../Ocelot/Ocelot.Pictomancy/Ocelot.Pictomancy.csproj" /> -->
+        <ProjectReference Include="../Ocelot/Ocelot.ECommons/Ocelot.ECommons.csproj" />
+        <ProjectReference Include="../Ocelot/Ocelot.Pictomancy/Ocelot.Pictomancy.csproj" />
+        <ProjectReference Include="../Ocelot/Ocelot.Pathfinding/Ocelot.Pathfinding.csproj" />
+        <ProjectReference Include="../Ocelot/Ocelot.Chain/Ocelot.Chain.csproj" />
+        <ProjectReference Include="../Ocelot/Ocelot.UI/Ocelot.UI.csproj" />
+        <ProjectReference Include="../Ocelot/Ocelot.Mechanic/Ocelot.Mechanic.csproj" />
+        <ProjectReference Include="../Ocelot/Ocelot.Rotation/Ocelot.Rotation.csproj" />
     </ItemGroup>
     <ItemGroup Condition="'$(Configuration)' == 'Release'">
         <!-- @todo, update ocelot version release for di support (2.0.0) and modules -->
