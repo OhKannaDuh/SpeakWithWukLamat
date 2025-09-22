@@ -8,17 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e4cbf7-c0fa-4cba-bf9c-c2ac78f6e43c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/IQuestPatch.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/QuestPatchAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/QuestPatchRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Patches/ARealmReborn/MSQ/PrudenceAtThisJunctionQuestPatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ocelot" beforeDir="false" afterPath="$PROJECT_DIR$/Ocelot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/Solution/QuestSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Data/Quests/Solution/QuestSolution.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Plugin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/Renderers/MainRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Renderers/MainRenderer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/Services/QuestSolver/QuestSolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/Services/QuestSolver/QuestSolver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/SpeakWithWukLamat.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/SpeakWithWukLamat.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpeakWithWukLamat/packages.lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SpeakWithWukLamat/packages.lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpeakWithWukLamat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpeakWithWukLamat/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +96,7 @@
       <workItem from="1758220121123" duration="378000" />
       <workItem from="1758298307983" duration="8071000" />
       <workItem from="1758353027166" duration="11931000" />
-      <workItem from="1758458081382" duration="5654000" />
+      <workItem from="1758458081382" duration="18790000" />
     </task>
     <servers />
   </component>
