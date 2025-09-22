@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Dalamud.NET.Sdk/13.0.0">
     <PropertyGroup>
-        <Version>0.0.0.1</Version>
-        <Description></Description>
+        <Version>0.1.0</Version>
+        <Description/>
         <PackageProjectUrl>https://github.com/OhKannaDuh/SpeakWithWukLamat</PackageProjectUrl>
         <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
         <IsPackable>false</IsPackable>
@@ -39,26 +39,26 @@
 
     <!-- Ocelot -->
     <ItemGroup Condition="'$(Configuration)' == 'Debug'">
-        <ProjectReference Include="../Ocelot/Ocelot/Ocelot.csproj" />
-        <ProjectReference Include="../Ocelot/Ocelot.ECommons/Ocelot.ECommons.csproj" />
-        <ProjectReference Include="../Ocelot/Ocelot.Pictomancy/Ocelot.Pictomancy.csproj" />
-        <ProjectReference Include="../Ocelot/Ocelot.Pathfinding/Ocelot.Pathfinding.csproj" />
-        <ProjectReference Include="../Ocelot/Ocelot.Chain/Ocelot.Chain.csproj" />
-        <ProjectReference Include="../Ocelot/Ocelot.UI/Ocelot.UI.csproj" />
-        <ProjectReference Include="../Ocelot/Ocelot.Mechanic/Ocelot.Mechanic.csproj" />
-        <ProjectReference Include="../Ocelot/Ocelot.Rotation/Ocelot.Rotation.csproj" />
+        <ProjectReference Include="../Ocelot/Ocelot/Ocelot.csproj"/>
+        <ProjectReference Include="../Ocelot/Ocelot.ECommons/Ocelot.ECommons.csproj"/>
+        <ProjectReference Include="../Ocelot/Ocelot.Pictomancy/Ocelot.Pictomancy.csproj"/>
+        <ProjectReference Include="../Ocelot/Ocelot.Pathfinding/Ocelot.Pathfinding.csproj"/>
+        <ProjectReference Include="../Ocelot/Ocelot.Chain/Ocelot.Chain.csproj"/>
+        <ProjectReference Include="../Ocelot/Ocelot.UI/Ocelot.UI.csproj"/>
+        <ProjectReference Include="../Ocelot/Ocelot.Mechanic/Ocelot.Mechanic.csproj"/>
+        <ProjectReference Include="../Ocelot/Ocelot.Rotation/Ocelot.Rotation.csproj"/>
     </ItemGroup>
     <ItemGroup Condition="'$(Configuration)' == 'Release'">
-        <PackageReference Include="FFXIVOcelot" Version="2.0.0" />
-        <PackageReference Include="FFXIVOcelot.ECommons" Version="0.1.0" />
-        <PackageReference Include="FFXIVOcelot.Pictomancy" Version="0.1.0" />
-        <PackageReference Include="FFXIVOcelot.Pathfinding" Version="0.1.0" />
-        <PackageReference Include="FFXIVOcelot.Chain" Version="0.1.0" />
-        <PackageReference Include="FFXIVOcelot.UI" Version="0.1.0" />
-        <PackageReference Include="FFXIVOcelot.Mechanic" Version="0.1.0" />
-        <PackageReference Include="FFXIVOcelot.Rotation" Version="0.1.0" />
+        <PackageReference Include="FFXIVOcelot" Version="2.0.0"/>
+        <PackageReference Include="FFXIVOcelot.ECommons" Version="0.1.0"/>
+        <PackageReference Include="FFXIVOcelot.Pictomancy" Version="0.1.0"/>
+        <PackageReference Include="FFXIVOcelot.Pathfinding" Version="0.1.0"/>
+        <PackageReference Include="FFXIVOcelot.Chain" Version="0.1.0"/>
+        <PackageReference Include="FFXIVOcelot.UI" Version="0.1.0"/>
+        <PackageReference Include="FFXIVOcelot.Mechanic" Version="0.1.0"/>
+        <PackageReference Include="FFXIVOcelot.Rotation" Version="0.1.0"/>
     </ItemGroup>
     <ItemGroup>
-      <PackageReference Include="Scrutor" Version="6.1.0" />
+      <PackageReference Include="Scrutor" Version="6.1.0"/>
     </ItemGroup>
 </Project>
